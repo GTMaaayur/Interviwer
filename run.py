@@ -1,7 +1,7 @@
 import nltk
 
 nltk.download('stopwords')
-
+nltk.download('punkt')
 from app import create_app
 
 app = create_app()
